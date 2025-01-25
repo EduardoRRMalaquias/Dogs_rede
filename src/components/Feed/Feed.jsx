@@ -46,6 +46,18 @@ const Feed = ({ user }) => {
           setInfinite={setInfinite}
         />
       ))}
+      {!infinite && (
+        <p
+          style={{
+            textAlign: 'center',
+            fontWeight: 'bold',
+            color: '#ddd',
+            marginBottom: '1rem',
+          }}
+        >
+          Sem mais postagens
+        </p>
+      )}
     </>
   );
 };

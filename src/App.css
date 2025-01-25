@@ -90,6 +90,12 @@ a {
   z-index: -1;
 }
 
+@media (max-width: 30rem) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
 .animeLeft {
   opacity: 0;
   transform: translateX(-20px);
