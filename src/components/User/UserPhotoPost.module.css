@@ -1,0 +1,72 @@
+.photoPost {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 40rem) {
+  .photoPost {
+    grid-template-columns: 1fr;
+  }
+}
+
+.file {
+  display: flex;
+  font-size: 1rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  background-color: #eee;
+  padding: 0.8rem 2.5rem 0.8rem 0.8rem;
+  align-items: center;
+  position: relative;
+  max-width: max-content;
+  border-radius: 0.4rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.file::after {
+  content: '';
+  display: block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  right: 0.8rem;
+}
+.file.cheio::after {
+  background-color: #fb1;
+}
+
+.file:hover,
+.file:has(input:focus) {
+  outline: none;
+  border-color: #fb1;
+  box-shadow: 0 0 0 3px #fea;
+}
+
+.file input {
+  position: absolute;
+  right: -193px;
+  z-index: -1;
+}
+
+.file input:focus {
+  outline: none;
+}
+
+.preview {
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.preview::after {
+  content: '';
+  display: block;
+  height: 0;
+  padding-bottom: 100%;
+}
