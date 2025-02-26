@@ -1,26 +1,23 @@
-
 # Aplicação React e API de Postagem de foto🖥️
 
-Deselvolvido no curso de React Completo e Api RestFull da Origamid Rede Social DOGS, para Postagems de fotos de cachorros. 
+Deselvolvido no curso de React Completo e Api RestFull da Origamid Rede Social DOGS, para Postagems de fotos de cachorros.
 
 Desenvolvido desde a API com wordpress até a o codigo react a aplicação ultiliza de recursos avançados do react como Context APIS, Hooks e tratamento de requisiçoes para APIS e possui as funcionalidades de Adicionar, remover exibir e autenticar, fotos, usuarios e comentarios.
-
 
 ## 📲 Acesse e Veja!
 
 ACESSE: https://dogs-rede.vercel.app/
 
-![Demonstração do conteudo](./img/readme-demo.png)
-
+![Demonstração do conteudo](./src/Assets/readme-demo.png)
 
 ## Funcionalidades
 
 - Custom hooks
-Criado para uso do projeto os hooks customizados useFetch e useForm para tratamento e reutilização de codigo para Fetch APIS e Formularios resprctivamente
+  Criado para uso do projeto os hooks customizados useFetch e useForm para tratamento e reutilização de codigo para Fetch APIS e Formularios resprctivamente
 
-![Demonstração do conteudo](./img/readme-hooks.png)
+![Demonstração do conteudo](./src/Assets/readme-hooks.png)
 
-Confira o codigo useFetch: 
+Confira o codigo useFetch:
 
 Ultilizado para reutilizar a logica de Fetch para todas as funcionalidades principais da aplicação. Confira no repositorio!
 
@@ -51,8 +48,7 @@ Ultilizado para reutilizar a logica de Fetch para todas as funcionalidades princ
     return { data, loading, erro, request };
     };
 
-
-Confira o codigo useForm: 
+Confira o codigo useForm:
 
     const validacao = {
     email: {
@@ -104,9 +100,9 @@ Confira o codigo useForm:
     };
 
 - Authenticação e login de usuario
-Atravez da Api desenvolvida e personalizada em wordpress a aplicação é capaz de realizar login, logout e autenticação do usuario.
+  Atravez da Api desenvolvida e personalizada em wordpress a aplicação é capaz de realizar login, logout e autenticação do usuario.
 
-![Demonstração do conteudo](./img/readme-login.png)
+![Demonstração do conteudo](./src/Assets/readme-login.png)
 
 Ultilizado Context API para tratamento e autenticação de usuarios:
 
@@ -186,7 +182,7 @@ Ultilizado Context API para tratamento e autenticação de usuarios:
     );
     };
 
-- cadastramento, Exibição  e Estilização avançada das fotos
+- cadastramento, Exibição e Estilização avançada das fotos
 
 usando useFetch, travez da API desenvolvida pode-se adicionar suas proprias fotos a rede social Ficticia Dogs.
 Que então serão armazenadas no banco Wordpress, novamente carregadas pelo useFetch e exibidas com uma estilização avançada de galeria aleatoria.
@@ -239,7 +235,7 @@ Componente com Fetch e exibição aleatoria de galeria:
         );
     else return null;
     };
+
 ## Autores
 
 - [@EduardoRRMalaquias](https://github.com/EduardoRRMalaquias)
-
