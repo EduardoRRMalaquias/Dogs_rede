@@ -2,6 +2,8 @@
 
 Deselvolvido no curso de React Completo e Api RestFull da Origamid Rede Social DOGS, para Postagems de fotos de cachorros.
 
+ACESSE CERTIFICADO: https://www.origamid.com/certificate/f3f54520
+
 Desenvolvido desde a API com wordpress até a o codigo react a aplicação ultiliza de recursos avançados do react como Context APIS, Hooks e tratamento de requisiçoes para APIS e possui as funcionalidades de Adicionar, remover exibir e autenticar, fotos, usuarios e comentarios.
 
 ## 📲 Acesse e Veja!
